@@ -1,0 +1,64 @@
+[{
+    "course_name": "Introduction to C Programming",
+    "description": "Dive deep into the world of programming with 'Introduction to C Programming.' This comprehensive course will take you through the fundamentals of the C programming language, starting from basic syntax to advanced concepts. You'll learn how to write efficient and optimized code, work with data structures, and develop problem-solving skills. By the end of this course, you'll have a strong foundation in C programming, setting you on the path to becoming a proficient programmer.",
+    "course_price": 99.99,
+    "course_credit": 3,
+    "course_image": "https://i.ibb.co/TB7M5xs/Rectangle-2-2.png"
+},
+{
+    "course_name": "Introduction to Algorithms",
+    "description": "Embark on a journey of discovery with 'Introduction to Algorithms.' This course explores the fascinating realm of algorithms and problem-solving techniques. You'll delve into various algorithmic paradigms, learning how to design and analyze efficient algorithms for a wide range of tasks. Whether you're a budding programmer or a seasoned developer, this course will sharpen your algorithmic thinking and enhance your problem-solving abilities.",
+    "course_price": 149.99,
+    "course_credit": 4,
+    "course_image": "https://i.ibb.co/rQzmGjh/Rectangle-2-3.png"
+},
+{
+    "course_name": "Introduction to C++ for DSA (Data Structures and Algorithms)",
+    "description": "Unleash the power of C++ programming in the context of Data Structures and Algorithms with 'Introduction to C++ for DSA.' This course not only covers the basics of C++ but also delves deep into data structures and algorithmic principles. You'll gain hands-on experience in implementing essential data structures and solving algorithmic challenges. By the end of this course, you'll be well-prepared to tackle complex problems and write efficient, C++-based solutions.",
+    "course_price": 129.99,
+    "course_credit": 4,
+    "course_image": "https://i.ibb.co/BTfKNfK/Rectangle-2-4.png"
+},
+{
+    "course_name": "Basic Data Structures",
+    "description": "Master the building blocks of computer science with 'Basic Data Structures.' In this course, you'll explore the fundamental data structures that underpin modern software development. From arrays to linked lists, stacks, queues, and trees, you'll gain a solid understanding of how these structures work and when to use them. Practical exercises and coding projects will equip you with the skills needed to create efficient and optimized data-driven applications.",
+    "course_price": 79.99,
+    "course_credit": 2,
+    "course_image": "https://i.ibb.co/jvrfb5H/Rectangle-3.png"
+},
+{
+    "course_name": "Introduction to OOP (Object-Oriented Programming) Python",
+    "description": "Immerse yourself in the world of Object-Oriented Programming (OOP) using Python in the 'Introduction to OOP Python' course. Python is not just a versatile programming language; it's also an excellent platform for learning OOP concepts. This course will teach you the principles of OOP, including classes, objects, inheritance, and polymorphism, all while working with Python. You'll emerge from this course with a strong grasp of OOP and the ability to apply it to real-world programming challenges.",
+    "course_price": 169.99,
+    "course_credit": 5,
+    "course_image": "https://i.ibb.co/j6Ny163/Rectangle-2.png"
+},
+{
+    "course_name": "Software Engineering",
+    "description": "Take your software development skills to the next level with the 'Software Engineering' course. This comprehensive program will introduce you to the principles and practices of software engineering. You'll learn about software development methodologies, project management, quality assurance, and best practices for creating robust and maintainable software. Whether you're an aspiring software engineer or a seasoned developer, this course is your gateway to becoming a proficient software engineering professional.",
+    "course_price": 109.99,
+    "course_credit": 3,
+    "course_image": "https://i.ibb.co/wJW4m9Y/Rectangle-2-5.png"
+},
+{
+    "course_name": "AWS, Cloud Computing",
+    "description": "Navigate the world of cloud computing with a focus on Amazon Web Services (AWS) in the 'AWS, Cloud Computing' course. Cloud computing is revolutionizing the way businesses operate, and AWS is at the forefront of this transformation. This course will equip you with the knowledge and skills to leverage AWS services for cloud infrastructure, storage, computing, and more. Whether you're an IT professional or a developer, this course will prepare you to harness the full potential of AWS and cloud technologies.",
+    "course_price": 199.99,
+    "course_credit": 6,
+    "course_image": "https://i.ibb.co/wySZ6WW/Rectangle-3-1.png"
+},
+{
+    "course_name": "Database (MySQL)",
+    "description": "Dive into the world of database management and design with the 'Database (MySQL)' course. MySQL is a leading relational database management system used in countless applications. This course will teach you the ins and outs of MySQL, from creating and optimizing databases to querying and managing data. You'll gain practical experience in database design and administration, making you proficient in handling data-driven projects.",
+    "course_price": 149.99,
+    "course_credit": 4,
+    "course_image": "https://i.ibb.co/frknhVc/Rectangle-2-1.png"
+},
+{
+    "course_name": "Problem-Solving Part",
+    "description": "Elevate your problem-solving prowess with the 'Problem-Solving Part' course. In the ever-evolving landscape of technology and innovation, problem-solving is a crucial skill. This course will challenge you with complex problems and provide strategies and techniques to solve them effectively. Through hands-on exercises and real-world scenarios, you'll sharpen your analytical thinking and creative problem-solving abilities, preparing you to tackle any challenge that comes your way.",
+    "course_price": 119.99,
+    "course_credit": 3,
+    "course_image": "https://i.ibb.co/F7fc9XR/Rectangle-2-6.png"
+}
+]
