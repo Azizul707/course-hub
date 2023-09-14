@@ -1,9 +1,10 @@
+/* eslint-disable react/prop-types */
 import { useEffect } from "react";
 import { useState } from "react";
 import Blog from "../../Blog/Blog";
 
 
-const Blogs = () => {
+const Blogs = ( { handleAddCourse } ) => {
 
     const [ courses, setCourses ] = useState( [] );
     useEffect( () => {
@@ -13,13 +14,14 @@ const Blogs = () => {
         
     },[])
     return (
-        <div className="max-w-screen-xl mx-auto flex gap-5">
-            <div className="w-4/5 grid grid-cols-3 gap-5">
+        <div className="">
+            <div className=" grid grid-cols-3 gap-5">
                 {
-                    courses.map((course,idx) => <Blog key={idx} course={course} ></Blog> )
+                    courses.map((course,idx) => <Blog key={idx} course={course} handleAddCourse={handleAddCourse} ></Blog> )
                 }
             </div>
-            <div className="w-96 bg-white">sidebar</div> 
+            
+            
         </div>
     );
 };

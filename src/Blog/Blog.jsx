@@ -1,7 +1,10 @@
 /* eslint-disable react/prop-types */
 
+
 import { FaBookOpen } from 'react-icons/fa';
-const Blog = ( { course } ) => {
+const Blog = ( { course,handleAddCourse } ) => {
+
+    
 
     return (
         <div className="bg-white w-auto p-3 rounded-xl space-y-2">
@@ -16,7 +19,7 @@ const Blog = ( { course } ) => {
                 <span>Credit: { course.course_credit }hr</span>
             </div>
             <div className="w-full bg-[#2F80ED] text-white rounded text-center py-1">
-                <button >Select</button>
+                <button onClick={()=> handleAddCourse(course)}>Select</button>
             </div>
         </div>
     );
