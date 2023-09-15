@@ -4,7 +4,7 @@
 import { FaBookOpen } from 'react-icons/fa';
 
 
-const Blog = ( { course,handleAddCourse } ) => {
+const Blog = ( { course,handleAddCourse} ) => {
 
     
 

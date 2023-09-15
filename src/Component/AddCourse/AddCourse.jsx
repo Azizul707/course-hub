@@ -1,5 +1,6 @@
 /* eslint-disable react/prop-types */
-
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 const AddCourse = ( { addCourse,creditHr,remainingHr,price } ) => {
 
     return (
@@ -18,9 +19,8 @@ const AddCourse = ( { addCourse,creditHr,remainingHr,price } ) => {
             }
             </div>
             <div className="border-b-2 pb-4 text-base font-semibold text-[#1C1B1BCC]">Total Credit Hour: { remainingHr }</div>
-            <div className="border-b-2 pb-4 text-lg text-[#1C1B1BCC] font-semibold">Total Price:{price }</div>
-            
-
+            <div className="border-b-2 pb-4 text-lg text-[#1C1B1BCC] font-semibold">Total Price:{ price }</div>
+            <ToastContainer />
         </div>
     );
 };
