@@ -20,7 +20,7 @@ function App () {
   const handleAddCourse = ( course ) => {
 
     const isSelected = addCourse.find( item => item.id == course.id )
-    if ( isSelected || remainingHr < 1 ) {
+    if ( isSelected || remainingHr <= 2 ) {
       return toast.error( "You have already added the course or your credit limit is crossed" );
 
     }
