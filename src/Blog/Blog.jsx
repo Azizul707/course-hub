@@ -2,6 +2,8 @@
 
 
 import { FaBookOpen } from 'react-icons/fa';
+
+
 const Blog = ( { course,handleAddCourse } ) => {
 
     
@@ -19,7 +21,7 @@ const Blog = ( { course,handleAddCourse } ) => {
                 <span>Credit: { course.course_credit }hr</span>
             </div>
             <div className="w-full bg-[#2F80ED] text-white rounded text-center py-1">
-                <button onClick={()=> handleAddCourse(course)}>Select</button>
+                <button onClick={()=> handleAddCourse(course)} className='w-full'>Select</button>
             </div>
         </div>
     );
